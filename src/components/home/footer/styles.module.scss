@@ -1,0 +1,24 @@
+@import '@/styles/colors.scss';
+
+.footer{
+  height: 100px;
+  .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+      font-size: 18px;
+      text-align: center;
+     
+      a{
+        text-decoration: none;
+        color: $darkRed;
+        font-weight: 600;
+        font-family: 'Poppins';
+        white-space: nowrap;
+      }
+    }
+  }
+}

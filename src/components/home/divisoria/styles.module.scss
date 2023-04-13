@@ -1,0 +1,14 @@
+@import '@/styles/colors.scss';
+
+.divisoria{
+  padding: 30px;
+  border-top: 2px solid $darkRed;
+  border-bottom: 2px solid $darkRed;
+  .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+}

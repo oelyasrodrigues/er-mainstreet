@@ -1,0 +1,87 @@
+@import '@/styles/colors.scss';
+
+.lancamento{
+  width: 100%;
+  height: 619px;
+  background-image: url("/bgs/bg2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  .content{
+    margin-top: 40px;
+    width: 100%;
+    height: 65%;
+    
+
+    .videoContainer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .video{
+        
+        width: 604px;
+        height: 343px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px){
+  .lancamento{
+    width: 100%;
+    height: 450px;
+    background-image: url("/bgs/bg2Mobile.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    
+    .content{
+      margin-top: 0px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0 60px 0;
+      
+  
+      .videoContainer{
+        max-width: 554px;
+        max-height: 306px;
+        
+        .video{
+          
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 505px){
+  .lancamento{
+    height: 260px;
+    background-size: 114%;
+    
+    .content{
+      margin-top: 0px;
+
+  
+      .videoContainer{
+        max-width: 554px;
+        max-height: 306px;
+        
+        .video{
+          
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
